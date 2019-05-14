@@ -4,7 +4,6 @@ import Header from './Header';
 
 
 export default function App() {
-  console.log('that is my dog, maaaan');
   return (
     <>
       <Header />
