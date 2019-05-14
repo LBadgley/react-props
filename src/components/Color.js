@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 function Color({ name, rgb: { red, green, blue } }) {
   const colorStyle = {
     display: 'inline-block',
-    backgroundColor: "#A83D58",
-    width: '1em',
-    height: '1em'
+    backgroundColor: '#A83D58',
+    width: '2em',
+    height: '2em'
   };
 
   return (
