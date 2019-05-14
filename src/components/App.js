@@ -1,13 +1,6 @@
 import React from 'react';
-import Color from './Color';
+import ColorPicker from './ColorPicker';
 
 export default function App() {
-  const name = 'Ruby';
-  const rgb = {
-    red: 168,
-    green: 61,
-    blue: 88
-  };
-
-  return <Color name={name} rgb={rgb} />;
+  return <ColorPicker />;
 }
