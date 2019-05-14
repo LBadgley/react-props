@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header component renders a header with a doggo in it 1`] = `
+<dl>
+  <dt>
+    Name
+  </dt>
+  <dd />
+  <dt>
+    Age
+  </dt>
+  <dd />
+  <dt>
+    Weight
+  </dt>
+  <dd />
+</dl>
+`;
