@@ -2,9 +2,9 @@ import React from 'react';
 import Color from './Color';
 
 export default function App() {
-  const name = 'Arsenic';
+  const name = 'Ruby';
   const rgb = {
-    red: 64,
+    red: 168,
     green: 61,
     blue: 88
   };

@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Color({ name, rgb }) {
+function Color({ name, rgb: { red, green, blue } }) {
   const colorStyle = {
     display: 'inline-block',
-    backgroundColor: '#403D58',
+    backgroundColor: "#A83D58",
     width: '1em',
     height: '1em'
   };
@@ -12,17 +12,15 @@ function Color({ name, rgb }) {
   return (
     <dl>
       <dt>Name</dt>
-      <dd>{name || 'Arsenic'} <div style={colorStyle}></div></dd>
+      <dd>{name}<div style={colorStyle}></div></dd>
 
       <dt>Hex</dt>
-      <dd>#403D58</dd>
+      <dd>#A83D58</dd>
 
       <dt>RGB</dt>
-      <dd>
-        <p>{red}: 64</p>,
-        <p>{green}: 61</p>
-        <p>{blue}: 88</p>
-      </dd>
+      <dd>r: {red}</dd>
+      <dd>g: {green}</dd>
+      <dd>b: {blue}</dd>
     </dl>
   );
 }
@@ -30,10 +28,37 @@ function Color({ name, rgb }) {
 Color.propTypes = {
   name: PropTypes.string,
   rgb: PropTypes.shape({
-    RED: PropTypes.number.isRequired(),
-    GREEN: PropTypes.number.isRequired(),
-    BLUE: PropTypes.number.isRequired()
+    red: PropTypes.number.isRequired,
+    green: PropTypes.number.isRequired,
+    blue: PropTypes.number.isRequired
   })
 };
 
 export default Color;
+
+
+// import React from 'react';
+// import PropTypes from 'prop-types';
+
+// function Dog({ name, age, weight }) {
+//   return (
+//     <dl>
+//       <dt>Name</dt>
+//       <dd>{name}</dd>
+
+//       <dt>Age</dt>
+//       <dd>{age}</dd>
+
+//       <dt>Weight</dt>
+//       <dd>{weight}</dd>
+//     </dl>
+//   );
+// }
+
+// Dog.propTypes = {
+//   name: PropTypes.string.isRequired,
+//   age: PropTypes.string.isRequired,
+//   weight: PropTypes.string.isRequired
+// };
+
+// export default Dog;
