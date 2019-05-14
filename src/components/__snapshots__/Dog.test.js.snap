@@ -5,14 +5,20 @@ exports[`Dog component renders a doggo 1`] = `
   <dt>
     Name
   </dt>
-  <dd />
+  <dd>
+    Ruby
+  </dd>
   <dt>
     Age
   </dt>
-  <dd />
+  <dd>
+    2
+  </dd>
   <dt>
     Weight
   </dt>
-  <dd />
+  <dd>
+    7.5 lbs
+  </dd>
 </dl>
 `;
