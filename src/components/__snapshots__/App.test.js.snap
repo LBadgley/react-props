@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app component test renders the app 1`] = `
+<Color
+  name="Ruby"
+  rgb={
+    Object {
+      "blue": 88,
+      "green": 61,
+      "red": 168,
+    }
+  }
+/>
+`;
