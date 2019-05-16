@@ -3,14 +3,17 @@ import styles from '';
 
 export default function ColorPicker() {
   const redColor = () => {
+    // eslint-disable-next-line no-console
     console.log('red');
   };
 
   const yellowColor = () => {
+    // eslint-disable-next-line no-console
     console.log('yellow');
   };
 
   const blueColor = () => {
+    // eslint-disable-next-line no-console
     console.log('blue');
   };
   
