@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '';
+import styles from './ColorPicker.css';
 
 export default function ColorPicker() {
   const redColor = () => {
